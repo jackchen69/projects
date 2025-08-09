@@ -1,12 +1,14 @@
 {
   "meta": {
-    "title": "Social Intelligence in AI Systems — ICCV 2025"
+    "title": "Social Intelligence in AI Systems \u2014 ICCV 2025"
   },
-  "nav": { "brand": "Social AI @ ICCV 2025" },
+  "nav": {
+    "brand": "Social AI @ ICCV 2025"
+  },
   "hero": {
     "title": "Social Intelligence in AI Systems",
-    "subtitle": "Honolulu, Hawaii • Oct 19, 2025 (ICCV 2025)",
-    "venue_pill": "Hybrid • In-person + Virtual"
+    "subtitle": "Honolulu, Hawaii \u2022 Oct 19, 2025 (ICCV 2025)",
+    "venue_pill": "Hybrid \u2022 In-person + Virtual"
   },
   "links": {
     "register": "#",
@@ -15,34 +17,103 @@
   },
   "event_start": "2025-10-19T09:00:00-10:00",
   "dates": [
-    { "label": "Paper Submission Deadline", "value": "Aug 25, 2025 (AoE)" },
-    { "label": "Reviews Released", "value": "Sep 18, 2025" },
-    { "label": "Camera-Ready", "value": "Oct 7, 2025" },
-    { "label": "Workshop Date", "value": "Oct 19, 2025 (Honolulu)" }
+    {
+      "label": "Paper Submission Deadline",
+      "value": "Aug 25, 2025 (AoE)"
+    },
+    {
+      "label": "Reviews Released",
+      "value": "Sep 18, 2025"
+    },
+    {
+      "label": "Camera-Ready",
+      "value": "Oct 7, 2025"
+    },
+    {
+      "label": "Workshop Date",
+      "value": "Oct 19, 2025 (Honolulu)"
+    }
   ],
   "program": [
-    { "time": "09:00", "title": "Opening Remarks" },
-    { "time": "09:15", "title": "Keynote: Social Reasoning in Multimodal Agents", "speaker": "TBA" },
-    { "time": "10:00", "title": "Paper Session I" },
-    { "time": "11:00", "title": "Coffee Break" },
-    { "time": "11:20", "title": "Invited Talk", "speaker": "TBA" },
-    { "time": "12:00", "title": "Poster Madness" },
-    { "time": "12:30", "title": "Lunch" },
-    { "time": "14:00", "title": "Paper Session II" },
-    { "time": "15:00", "title": "Panel: Social Intelligence Benchmarks", "speaker": "TBA" },
-    { "time": "16:00", "title": "Closing" }
+    {
+      "time": "09:00",
+      "title": "Opening Remarks"
+    },
+    {
+      "time": "09:15",
+      "title": "Keynote: Social Reasoning in Multimodal Agents",
+      "speaker": "TBA"
+    },
+    {
+      "time": "10:00",
+      "title": "Paper Session I"
+    },
+    {
+      "time": "11:00",
+      "title": "Coffee Break"
+    },
+    {
+      "time": "11:20",
+      "title": "Invited Talk",
+      "speaker": "TBA"
+    },
+    {
+      "time": "12:00",
+      "title": "Poster Madness"
+    },
+    {
+      "time": "12:30",
+      "title": "Lunch"
+    },
+    {
+      "time": "14:00",
+      "title": "Paper Session II"
+    },
+    {
+      "time": "15:00",
+      "title": "Panel: Social Intelligence Benchmarks",
+      "speaker": "TBA"
+    },
+    {
+      "time": "16:00",
+      "title": "Closing"
+    }
   ],
   "speakers": [
-    { "name": "TBA Speaker 1", "affiliation": "TBA", "photo": "assets/speaker-placeholder.png" },
-    { "name": "TBA Speaker 2", "affiliation": "TBA", "photo": "assets/speaker-placeholder.png" }
+    {
+      "name": "TBA Speaker 1",
+      "affiliation": "TBA",
+      "photo": "assets/speaker-placeholder.png"
+    },
+    {
+      "name": "TBA Speaker 2",
+      "affiliation": "TBA",
+      "photo": "assets/speaker-placeholder.png"
+    }
   ],
   "organizers": [
-    { "name": "Organizer A", "affiliation": "Your Org", "photo": "assets/person-placeholder.png" },
-    { "name": "Organizer B", "affiliation": "Your Org", "photo": "assets/person-placeholder.png" }
+    {
+      "name": "Organizer A",
+      "affiliation": "Your Org",
+      "photo": "assets/person-placeholder.png"
+    },
+    {
+      "name": "Organizer B",
+      "affiliation": "Your Org",
+      "photo": "assets/person-placeholder.png"
+    }
   ],
   "sponsors": [
-    { "name": "Sponsor 1", "logo": "assets/logo-placeholder.svg" },
-    { "name": "Sponsor 2", "logo": "assets/logo-placeholder.svg" }
+    {
+      "name": "Sponsor 1",
+      "logo": "assets/logo-placeholder.svg"
+    },
+    {
+      "name": "Sponsor 2",
+      "logo": "assets/logo-placeholder.svg"
+    }
   ],
-  "contact": { "email": "workshop@yourdomain.org" }
+  "contact": {
+    "email": "workshop@yourdomain.org"
+  }
 }
