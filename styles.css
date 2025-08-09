@@ -1,73 +1,39 @@
-/* Google Sites-like clean theme */
-:root {
-  --fg: #202124;          /* 文字 */
-  --muted: #5f6368;       /* 次要文字 */
-  --brand: #1a73e8;       /* 链接/主色（Google 蓝） */
-  --card: #ffffff;        /* 卡片白 */
-  --bg: #ffffff;          /* 页面白 */
-  --border: #e0e0e0;      /* 细边线 */
-}
-* { box-sizing: border-box; }
-html, body {
-  margin: 0; background: var(--bg); color: var(--fg);
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  line-height: 1.6;
-}
-.container { width: min(1060px, 92%); margin: 0 auto; }
-
-/* 顶部导航：扁平、文字链接 */
-.site-nav { position: sticky; top: 0; background: #fff; border-bottom: 1px solid var(--border); z-index: 50; }
-.nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; }
-.brand { font-weight: 700; color: var(--fg); text-decoration: none; letter-spacing: .2px; }
-.site-nav nav a { color: var(--fg); text-decoration: none; margin: 0 10px; padding: 8px 6px; border-radius: 6px; }
-.site-nav nav a:hover { background: #f6f9fe; color: var(--brand); }
-#toggleDark { display:none; }  /* 为了还原 Google Sites，不显示暗色按钮 */
-
-/* 顶部横幅：大标题 + 副标题（无炫光背景） */
-.hero { background: #f8f9fa; border-bottom: 1px solid var(--border); }
-.hero-inner { padding: 48px 0 36px; text-align: left; }
-.hero h1 { font-size: clamp(28px, 3.2vw, 40px); margin: 0 0 6px; }
-.subtitle { color: var(--muted); margin: 0; }
-.cta-row { display: flex; gap: 10px; margin-top: 16px; }
-.btn { display: inline-block; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--border); background: #fff; color: var(--fg); text-decoration: none; font-weight: 600; }
-.btn.primary { background: var(--brand); color: #fff; border-color: var(--brand); }
-.pill { display:inline-block; margin-top: 12px; padding: 5px 10px; border-radius: 999px; background:#eef2ff; color:#1a73e8; }
-
-/* 版块与标题 */
-section { padding: 36px 0 8px; }
-h2 { font-size: 22px; margin: 0 0 14px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
-
-/* 日期卡片：浅阴影/细边 */
-.dates-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
-.date-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
-.date-card .label { color: var(--muted); font-weight: 600; }
-.date-card .value { font-weight: 700; }
-
-/* 卡片列表 */
-.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
-.card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
-.card h3 { margin: 0 0 6px; }
-
-/* 日程 */
-.program-table { display: grid; gap: 8px; }
-.program-row { display: grid; grid-template-columns: 110px 1fr; gap: 16px; padding: 12px; background: #fff; border: 1px solid var(--border); border-radius: 10px; }
-.program-time { font-weight: 700; }
-.program-item .speaker { color: var(--muted); }
-
-/* 人员卡片 */
-.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
-.person { background:#fff; border:1px solid var(--border); border-radius:10px; padding:12px; }
-.person img { width: 100%; height: 150px; object-fit: cover; border-radius: 8px; background: #eee; }
-.person .name { font-weight: 800; }
-.person .affil { color: var(--muted); }
-
-/* 赞助商 */
-.logo-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
-.logo-grid img { width: 100%; max-height: 60px; object-fit: contain; }
-
-/* 页脚 */
-.site-footer { border-top:1px solid var(--border); color: var(--muted); text-align:center; padding: 22px 0; }
-
-/* 链接颜色（更像 Google Sites） */
-a { color: var(--brand); }
-a:hover { text-decoration: underline; }
+:root{--fg:#202124;--muted:#5f6368;--brand:#1a73e8;--card:#fff;--bg:#fff;--border:#e0e0e0}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6}
+.container{width:min(1060px,92%);margin:0 auto}
+.site-nav{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--border);z-index:50}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.brand{font-weight:700;color:var(--fg);text-decoration:none;letter-spacing:.2px}
+.site-nav nav a{color:var(--fg);text-decoration:none;margin:0 10px;padding:8px 6px;border-radius:6px}
+.site-nav nav a:hover{background:#f6f9fe;color:var(--brand)}
+.hero{background:#f8f9fa;border-bottom:1px solid var(--border)}
+.hero-inner{padding:48px 0 36px;text-align:left}
+.hero h1{font-size:clamp(28px,3.2vw,40px);margin:0 0 6px}
+.subtitle{color:var(--muted);margin:0}
+.cta-row{display:flex;gap:10px;margin-top:16px}
+.btn{display:inline-block;padding:8px 14px;border-radius:8px;border:1px solid var(--border);background:#fff;color:var(--fg);text-decoration:none;font-weight:600}
+.btn.primary{background:var(--brand);color:#fff;border-color:var(--brand)}
+.pill{display:inline-block;margin-top:12px;padding:5px 10px;border-radius:999px;background:#eef2ff;color:#1a73e8}
+section{padding:36px 0 8px}
+h2{font-size:22px;margin:0 0 14px;border-bottom:1px solid var(--border);padding-bottom:8px}
+.dates-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.date-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px}
+.date-card .label{color:var(--muted);font-weight:600}
+.date-card .value{font-weight:700}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.card{background:#fff;border:1px solid var(--border);border-radius:10px;padding:14px}
+.card h3{margin:0 0 6px}
+.program-table{display:grid;gap:8px}
+.program-row{display:grid;grid-template-columns:110px 1fr;gap:16px;padding:12px;background:#fff;border:1px solid var(--border);border-radius:10px}
+.program-time{font-weight:700}
+.program-item .speaker{color:var(--muted)}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.person{background:#fff;border:1px solid var(--border);border-radius:10px;padding:12px}
+.person img{width:100%;height:150px;object-fit:cover;border-radius:8px;background:#eee}
+.person .name{font-weight:800}
+.person .affil{color:var(--muted)}
+.logo-grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
+.logo-grid img{width:100%;max-height:60px;object-fit:contain}
+.site-footer{border-top:1px solid var(--border);color:var(--muted);text-align:center;padding:22px 0}
+a{color:var(--brand)}a:hover{text-decoration:underline}
